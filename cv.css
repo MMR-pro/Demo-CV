@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(paper.jpg);
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+p{
+	text-align: justify;
+}
+.containar{
+	background-image: url(text.jpg);
+	width: 850px;
+	margin: 0 auto;
+}
+@media screen and ( max-width: 600px) {
+	.containar{
+		background-color: blueviolet;
+	}
+}
+.navbar{
+	background-color: lightyellow;
+	color: orange;
+	padding: 15px;
+	width: auto;
+	height: 60px;
+
+}
+.navbar ul{
+	list-style: none;
+	float: right;
+}
+.navbar ul li {
+	display: inline-block;
+	margin: 10px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: orange;
+}
+.navbar ul li a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: grey;
+}
+.navbar ul li:focus{
+
+}
+.profile{
+	padding: 20px;
+}
+#profile-img{
+	height: 150px;
+	width: 100px;
+	border: 2px solid blueviolet;
+	border-radius: 50%;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+#profile-img:hover{
+	border: 5px solid blue;
+
+}
+#profile-text{
+	float: left;
+	padding: 30px;
+	margin-top: 15px;
+}
+#profile-text:hover{
+	text-decoration: underline;
+}
+.profile2{
+	float: right;
+	padding:15px;
+}
+.profile2 ul {
+	list-style: none;
+}
+.profile2 ul li{
+	display: inline-block;
+	margin: 10px;
+}
+h6{
+	visibility: hidden;
+	color: black;
+	size: 1rem;
+}
+.profile2 ul li:hover h6{
+	visibility: visible;
+}
+.clear{
+	clear: both;
+	margin: 10px;
+	padding: 10px;
+
+}
+.content{
+	margin: 20px;
+}
+.left{
+	color: skyblue;
+	float: left;
+	width: 30%;
+}
+@media screen and ( max-width: 600px) {
+	.left {
+		width: 100%;
+	}
+}
+.content:hover .left{
+	color: blue;
+	text-decoration: underline;
+}
+.right{
+	color: black;
+	float: left;
+	width: 70%;
+}
+.right h3, h4{
+	color: blueviolet;
+}
+.rightleft{
+	float: left;
+	width: 45%;
+}
+.rightright{
+	float: right;
+	width: 45%;
+}
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,75), rgba(0,0,0,0));
+}
+hr:hover{
+	background-image: linear-gradient(to right, red, orange, yellow);
+	height: 3px;
+}
+footer{
+	text-align: center;
+	background-color: lightyellow;
+	color: black;
+	padding: 20px auto;
+}
+.contact{
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.contact a {
+	margin: 10px;
+	visibility: hidden;
+	color: seagreen;
+	text-decoration: none;
+}
+.contact a img {
+	visibility: visible;
+}
+.contact a:hover {
+	visibility: visible;
+}
+.and a {
+	text-decoration: none;
+	color: black;
+}
